@@ -21,6 +21,7 @@ git clone https://github.com/RoderickNi/LSStoolkit.git
 ```
  python Separator.py --Fastq TestFastq.fq --Primer TestPrimers.txt --OutDir TestRst --MinLenth 5000 --MisMatch 1 --TagTrim 6 --CPU 8
 ```
+
 - HapGrep
 ```
  python HapGrep.py --Fasta ./TestFasta.fasta --Out ./TestRepReads.fasta --Pkl ./TestRst.pkl --CPU 8
