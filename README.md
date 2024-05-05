@@ -12,7 +12,21 @@ pip install biopython==1.81
 pip install umap-learn
 pip install tqdm
 ```
-- Get AmpHap
+- Get LSStoolkit
 ```
 git clone https://github.com/RoderickNi/LSStoolkit.git
 ```
+## Usage
+- Separator
+```
+ python Separator.py --Fastq TestFastq.fq --Primer TestPrimers.txt --OutDir TestRst --MinLenth 5000 --MisMatch 1 --TagTrim 6 --CPU 8
+```
+- HapGrep
+```
+ python HapGrep.py --Fasta ./TestFasta.fasta --Out ./TestRepReads.fasta --Pkl ./TestRst.pkl --CPU 8
+```
+- SVfinder
+```
+ python SVfinder.py ...
+```
+
